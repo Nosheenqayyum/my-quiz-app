@@ -1,0 +1,26 @@
+.Quiz{
+    
+
+ background-image: url("./background.jpg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.Font-quiz1{
+    font-size:xx-large;
+    font: display 20px;
+    color: aliceblue;
+}
+.Font-quiz2{
+    color: snow;
+}
+.button{
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 80px ;
+}
