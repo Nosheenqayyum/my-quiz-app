@@ -8,6 +8,7 @@ function Q5() {
   const location = useLocation();
   const questionHandler = (isCorrect) => {
     if (isCorrect) {
+      
       navigate("/Result", { state: { score: location.state.score + 1 } });
     } else {
       navigate("/Result", { state: { score: location.state.score + 0 } });
